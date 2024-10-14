@@ -110,8 +110,27 @@ header h1{
     width: 240px;
     position: absolute;
     left: 0px;
-    top:1500px
-    
-
+    top:1500px;
+}
+.img5{
+    width: 100%;
+    height: 600px;
+}
+.pic{
+    position: absolute;
+    top:1670px;
+    left: 70px;
+}
+.about{
+    width:100%;
+    height: 60px;
+    background: rgb(17, 16, 16);
+    position:absolute;
+    top:2300px
+}
+.h3abaout{
+    color: white;
+    text-align: center;
+    font-size:x-large;
 }
 
