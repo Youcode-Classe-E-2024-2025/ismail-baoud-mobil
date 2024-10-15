@@ -120,12 +120,12 @@ picture div p{
     display: flex;
     justify-content: center;
 }
-.abaout{
+.about{
     width:100%;
     height:70%;
     background: rgba(0, 0, 0, 0.801);
 }
-.abaout h3{
+.about h3{
     color: white;
     font-size: 40px;
     text-align: center;
@@ -176,6 +176,5 @@ h4{
     width: 80%;
     object-fit: fill;
     margin-bottom: 60px;
-    border-radius
 }
 
