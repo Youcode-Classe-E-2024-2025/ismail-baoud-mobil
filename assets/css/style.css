@@ -177,8 +177,3 @@ h4{
     object-fit: fill;
     margin-bottom: 60px;
 }
-
-git commit -m "day 1"
-git branch -M main
-git remote add origin https://github.com/ismailbaoud/game-challenge-css.git
-git push -u origin main
