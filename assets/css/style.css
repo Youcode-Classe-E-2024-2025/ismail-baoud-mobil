@@ -111,7 +111,7 @@ picture div p{
    padding: 0;
    margin: 0;
    width: 60%;
-   height: 400px
+   height: 600px
 }
 .compact{
     font-size: 50px;
@@ -177,3 +177,78 @@ h4{
     object-fit: fill;
     margin-bottom: 60px;
 }
+
+
+.ACHETER input, label{
+  display: block;
+}
+.label{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.ACHETER input{
+  width:25%;
+  height: 35px;
+  font-size: 20px;
+}
+.ACHETER .mm{
+  margin-top: 20px;;
+  width:12%;
+  display: inline;
+}
+.ACHETER button{
+  width: 28%;
+  height: 50px;
+  background: #000000;
+  margin-top: 15px;
+}
+.ACHETER button a{
+  font-size: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.contact{
+width: 100%;
+height: 40px;
+background: rgba(0, 0, 0, 0.811);
+}
+.contact h3{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.contact-bg{
+  width: 100%;
+  background: rgba(128, 128, 128, 0.479);
+  
+}
+.marg{
+  margin-left: 70px;
+}
+.contact-bg label{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.contact-bg input{
+  width:25%;
+  height: 35px;
+  font-size: 20px;
+}
+.contact-bg button{
+
+  background: #3898ec;
+  display: block;
+  margin-top: 0;
+  width: 150px;
+  border: 0;
+  font-size: 30px;
+  color: white;
+}
+.copyright{
+  font-size: 30px;
+  margin: 0;
+
+}
+
+
+
