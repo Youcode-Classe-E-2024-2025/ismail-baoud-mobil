@@ -33,6 +33,16 @@ body {
   font-size: 18px;
   color: white;
 }
+.button-search:hover{
+  color: #3898ec;
+  font-weight: 600;
+ transform: scale(1.02);
+  background: white;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  text-shadow: 0px 0px 10px #3898ec, 0px 0px 20px #3898ec , 0px 0px 40px #3898ec ;
+}
 .section-search {
   flex-direction: row;
 }
@@ -43,7 +53,9 @@ body {
 }
 .sec-menu {
   display: flex;
+ height: 100%;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
 }
 .sec-menu a {
@@ -52,29 +64,90 @@ body {
   font-size: larger;
   font-weight: 600;
 }
+.sec-menu a:hover{
+  color: #ffffff;
+  background: #070707;
+  border: 3px solid white;
+  border-radius: 10px;
+  text-shadow: 0px 0px 10px #ffffff, 0px 0px 20px #fff , 0px 0px 40px #fff ;
+}
+.picture{
+  display: flex;
+  justify-content: end;
+  
+}
 .img1 {
-  width: 100%;
+  width: 70%;
   object-fit: fill;
+  
+ 
+}
+.img1:hover{
+  width:70%;
+
+}
+.p-1{
+ display: inline-block;
+ position: relative;
+ font-size: 50px;
+ font-weight: 600;
+}
+.p-1::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: transparent;
+  transition: background 0.3s;
+}
+.p-1:hover::after{
+  background: black;
 }
 .h2{
     font-size: 60px;
+    
 }
 .picture h2 {
   position: absolute;
   top: 150px;
   left: 10px;
 }
+.img2-2{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+  
+}
 .img2 {
-  width: 100%;
+  width: 40%;
   object-fit: fill;
+  box-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff, 0px 0px 40px #fff;
+ 
+  
+}
+.img2-2:hover{
+
+  background: #000;
+  .showroom-page{
+    background: #000;
+  }
+
 }
 .prix {
   font-size: 90px;
   margin: 0;
   text-align: center;
 }
+.prix:hover{
+  border:2px solid #000;
+  background: #000;
+  color: red;
+  text-shadow:0px 0px 10px #fff, 0px 0px 20px white, 0px 0px 40px #fff;
+}
 .showroom-page {
- 
+  
   width: 100%;
   height: 70px;
   background: #0a0909cf;
@@ -85,6 +158,8 @@ body {
   color: white;
   text-align: center;
   font-size: 55px;
+  margin: 0;
+  padding: 0;
 }
 .showroom-page .p {
     font-size: 30px;
@@ -252,3 +327,4 @@ background: rgba(0, 0, 0, 0.811);
 
 
 
+/* hover  */
