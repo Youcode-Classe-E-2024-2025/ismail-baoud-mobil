@@ -87,23 +87,15 @@ body {
 
 }
 .p-1{
- display: inline-block;
- position: relative;
+ 
+ 
  font-size: 50px;
  font-weight: 600;
 }
-.p-1::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 100%;
-  background: transparent;
-  transition: background 0.3s;
-}
-.p-1:hover::after{
+
+.p-1:hover{
   background: black;
+  color: #fff;
 }
 .h2{
     font-size: 60px;
@@ -121,18 +113,16 @@ body {
   
 }
 .img2 {
-  width: 40%;
+  
   object-fit: fill;
-  box-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff, 0px 0px 40px #fff;
- 
+  box-shadow: 0px 0px 5px 0px #fff ,0px 0px 5px 0px #fff, 0px 0px 5px 0px #fff;;
+  
   
 }
 .img2-2:hover{
 
   background: #000;
-  .showroom-page{
-    background: #000;
-  }
+  
 
 }
 .prix {
@@ -164,8 +154,30 @@ body {
 .showroom-page .p {
     font-size: 30px;
 }.img3{
-    width: 100%;
+  position: relative;
+  right: 60px;
+    width: 40%;
     object-fit: fill;
+    
+    
+}
+.img3-3{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height:1000px;
+  
+  background-image: url(/assets/images/img3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img3-1{
+  position: absolute;
+  width: 900px;
+  /* position: absolute; */
+  /* right:35%;
+  top: 2200px; */
+
 }
 picture div p{
     font-size: 30px;
