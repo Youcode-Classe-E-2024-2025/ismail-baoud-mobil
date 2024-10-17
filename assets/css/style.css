@@ -170,7 +170,7 @@ body {
 }
 .img3{
    position: absolute;
-   right: 0px;
+   right: 20px;
     object-fit: fill;
    
     width: 70%;
@@ -382,4 +382,86 @@ font-weight: 800;
 .copyright{
   font-size: 30px;
   margin: 0;
+}
+/* hover  */
+
+@media (max-width: 500px) {
+  /* .img1{
+    width: 400px;
+  } */
+  #home h2{
+    font-size:20px ;
+  }
+  .p-1{
+    font-size: 20px;
+  }
+  .img2-2{
+width: 485px;
+  }
+  .img2{
+    width:500px;
+  }
+ 
+  
+  .img3-3{
+    
+    width: 500px;
+    height:200px
+    
+  }
+  .img3-1{
+    width: 300px;
+    position: absolute;
+    right: 40px;
+  }
+  .images{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .images-text{
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  .img4-1{
+    grid-template-columns: 2;
+    width: 200px;
+  }
+  .p-text{
+    font-size: 20px;
+    width: 200px;
+  }
+  .img4{
+    width: 280px;
+  }
+  .ACHETER input{
+    height: 25px;
+    width: 200px;
+    font-size: 15px;
+  }
+  .ACHETER .mm{
+    width:95px
+  }
+  .ACHETER .label{
+    font-size: large;
+    font-weight: 600;
+  }
+  .ACHETER button{
+ width: 120px;
+ font-size: 20px;
+  }
+  .contact-bg input{
+    height: 25px;
+    width: 250px;
+  }
+  .contact-bg label{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .contact-bg .discr{
+    height: 50px;
+  }
+  .copyright{
+    font-size: 20px;
+  }
 }
