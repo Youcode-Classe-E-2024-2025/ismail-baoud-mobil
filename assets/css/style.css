@@ -1,7 +1,10 @@
 body {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
+
+
 .header {
   width: 100%;
   height: 100px;
@@ -15,6 +18,9 @@ body {
   text-align: center;
   margin-top: 24px;
   margin-bottom: 10px;
+}
+.section-search {
+  flex-direction: row;
 }
 .search {
   width: 75%;
@@ -43,13 +49,15 @@ body {
   font-size: 20px;
   text-shadow: 0px 0px 10px #3898ec, 0px 0px 20px #3898ec , 0px 0px 40px #3898ec ;
 }
-.section-search {
-  flex-direction: row;
-}
+
 .menu {
   width: 100%;
   height: 30px;
-  background: rgba(0, 0, 0, 0.256);
+  background: rgba(0, 0, 0, 0.418);
+  position: sticky;
+  top:0;
+  z-index: 2;
+
 }
 .sec-menu {
   display: flex;
@@ -136,6 +144,9 @@ body {
   color: red;
   text-shadow:0px 0px 10px #fff, 0px 0px 20px white, 0px 0px 40px #fff;
 }
+#showroom{
+  width: 100%;
+}
 .showroom-page {
   
   width: 100%;
@@ -153,31 +164,35 @@ body {
 }
 .showroom-page .p {
     font-size: 30px;
-}.img3{
-  position: relative;
-  right: 60px;
-    width: 40%;
+}
+.img3{
+   position: absolute;
+   right: 0px;
     object-fit: fill;
-    
-    
+   
+    width: 70%;
+
+    z-index: 0;
 }
 .img3-3{
-  display: flex;
-  justify-content: center;
+  position: relative;
+  right: 0%;
   width:100%;
-  height:1000px;
+  right:0;
+  height:800px;
   
-  background-image: url(/assets/images/img3.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .img3-1{
   position: absolute;
-  width: 900px;
+  right: 150px;
+  
+ 
+  z-index: 1;
   /* position: absolute; */
   /* right:35%;
   top: 2200px; */
-
 }
 picture div p{
     font-size: 30px;
@@ -186,7 +201,7 @@ picture div p{
     display: flex;
     
 }
-.text{
+.images-text{
     width: 50%;
     font-size: 20px;
 
@@ -221,6 +236,10 @@ picture div p{
 .p{
     font-size: 40px;
 }
+.img{
+  display: flex;
+  justify-content: center;
+}
 .img6{
 width: 60%;
 
@@ -228,14 +247,11 @@ width: 60%;
 .p1{
     font-size: 40px;
 }
-.img{
-    display: flex;
-    justify-content: center;
-}
-.gry{ 
+
+.about-bg{ 
     background-color: gray;
 }
-.line{
+.div-about{
     width: 100%;
     height: 5px;
     background: rgba(50, 50, 195, 0.477);
@@ -246,7 +262,7 @@ h4{
     margin-top:20px;
     margin-top: 30px;
 }
-.pe{
+.p-info{
     font-size: 30px;
     margin-left: 130px;
 
@@ -283,16 +299,32 @@ h4{
   width:12%;
   display: inline;
 }
+.ACHETER a{
+  color: #000;
+  border: #000 1px solid;
+  position: fixed;
+  bottom:35px;
+  left:28%;
+  padding: 15px 200px;
+  font-size: 30px;
+  color: #fff;
+  background-color: red;
+  text-decoration: none;
+
+}
 .ACHETER button{
   width: 28%;
   height: 50px;
-  background: #000000;
+  background: #000;
   margin-top: 15px;
-}
-.ACHETER button a{
   font-size: 30px;
   color: #FFFFFF;
   text-decoration: none;
+}
+.ACHETER button:hover{
+  background: red;
+  color: white;
+  text-shadow: 0px 0px 10px white , 0px 0px 20px white, 0px 0px 40px white;
 }
 .contact{
 width: 100%;
@@ -316,10 +348,16 @@ background: rgba(0, 0, 0, 0.811);
   font-size: 30px;
   margin-top: 10px;
 }
+.contact-bg label:hover{
+font-weight: 800;
+}
 .contact-bg input{
   width:25%;
   height: 35px;
   font-size: 20px;
+}
+.contact-bg input:hover{
+  font-weight: 600;
 }
 .contact-bg button{
 
@@ -331,10 +369,16 @@ background: rgba(0, 0, 0, 0.811);
   font-size: 30px;
   color: white;
 }
+.contact-bg button:hover{
+  border: 2px #3898ec solid;
+  font-weight:600;
+  background-color: white;
+  border-radius: 20px;
+  color: #3898ec;
+}
 .copyright{
   font-size: 30px;
   margin: 0;
-
 }
 
 
