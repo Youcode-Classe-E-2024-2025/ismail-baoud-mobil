@@ -367,10 +367,10 @@ width: 60%;
     width: 750px;
     height:350px
   }
-  .img3-1{
-    width: 400px;
+  .img3-z1{
+    width: 500px;
     position: absolute;
-    right: 70px;
+    right: 60px;
   }
   .images{
     display: grid;
@@ -465,11 +465,13 @@ width: 60%;
   .img4{
     width: 280px;
   }
+
   .ACHETER input{
     height: 25px;
     width: 200px;
     font-size: 15px;
   }
+  
   .ACHETER .date-cvc{
     width:95px
   }
