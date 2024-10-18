@@ -377,7 +377,7 @@ width: 60%;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
   }
-  .images-text{
+  .images-text-photo{
     display: grid;
     grid-template-rows: auto auto;
   }
@@ -397,7 +397,7 @@ width: 60%;
     width: 200px;
     font-size: 15px;
   }
-  .ACHETER .mm{
+  .ACHETER .date-cvc{
     width:95px
   }
   .ACHETER .label{
@@ -440,7 +440,7 @@ width: 60%;
     width: 500px;
     height:200px;
   }
-  .img3-1{
+  .img3-z1{
     width: 300px;
     position: absolute;
     right: 40px;
@@ -450,7 +450,7 @@ width: 60%;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
   }
-  .images-text{
+  .images-text-photo{
     display: grid;
     grid-template-rows: auto auto;
   }
@@ -470,7 +470,7 @@ width: 60%;
     width: 200px;
     font-size: 15px;
   }
-  .ACHETER .mm{
+  .ACHETER .date-cvc{
     width:95px
   }
   .ACHETER .label{
